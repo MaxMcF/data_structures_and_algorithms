@@ -1,0 +1,6 @@
+[
+  "challenges/array_shift/test_array_shift.py::test_insert_shift_array_exists",
+  "challenges/array_shift/test_array_shift.py::test_insert_shift_array_returns_simple_list",
+  "challenges/array_shift/test_array_shift.py::test_returns_error_on_null",
+  "challenges/array_shift/test_array_shift.py::test_insert_shift_array_returns_complex_list"
+]
