@@ -4,8 +4,11 @@ from typing import Any
 
 class LinkedList(object):
     def __init__(self, ):
-        self.head: Node = None
-        self._length: int = 0
+        try:
+            self.head: Node = None
+            self._length: int = 0
+        except TypeError:
+            return TypeError
 
     def __str__(self):
         return f'Head: {self.head} | Length: {self._length}'
