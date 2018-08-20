@@ -14,3 +14,4 @@ git clone https://github.com/MaxMcF/data_structures_and_algorithms.git
 2. Algorithms
     - [Array Shift](./challenges/array_shift/README.md)
     - [Array Binary Search](./challenges/array_binary_search/README.md)
+    - [Linked List Insertion](./data_structures/linked_list/README.md)

@@ -3,7 +3,7 @@ from typing import Any
 
 
 class LinkedList(object):
-    def __init__(self, ):
+    def __init__(self):
         try:
             self.head: Node = None
             self._length: int = 0
