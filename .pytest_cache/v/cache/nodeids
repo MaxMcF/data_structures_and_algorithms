@@ -1,7 +1,17 @@
 [
-  "challenges/array_binary_search/test_array_binary_search.py::test_binary_search_exists",
-  "challenges/array_binary_search/test_array_binary_search.py::test_binary_search_odd_array",
-  "challenges/array_binary_search/test_array_binary_search.py::test_binary_search_even_array",
-  "challenges/array_binary_search/test_array_binary_search.py::test_binary_search_empty_array",
-  "challenges/array_binary_search/test_array_binary_search.py::test_binary_search_type_error"
+  "data_structures/linked_list/test_linked_list.py::test_linked_list_exists",
+  "data_structures/linked_list/test_linked_list.py::test_create_instance_of_list",
+  "data_structures/linked_list/test_linked_list.py::test_default_property_head",
+  "data_structures/linked_list/test_linked_list.py::test_default_property_length",
+  "data_structures/linked_list/test_linked_list.py::test_insert_successful",
+  "data_structures/linked_list/test_linked_list.py::test_length_of_list_increases_on_insertion",
+  "data_structures/linked_list/test_linked_list.py::test_includes_returns_true_if_exists",
+  "data_structures/linked_list/test_linked_list.py::test_includes_returns_false_if_not_exists",
+  "data_structures/linked_list/test_linked_list.py::test_repr_returns_correct_value",
+  "data_structures/linked_list/test_linked_list.py::test_str_returns_correct_value",
+  "data_structures/linked_list/test_linked_list.py::test_append_return_true",
+  "data_structures/linked_list/test_linked_list.py::test_insert_before_works",
+  "data_structures/linked_list/test_linked_list.py::test_insert_after_works",
+  "data_structures/linked_list/test_linked_list.py::test_insert_before_invalid_input",
+  "data_structures/linked_list/test_linked_list.py::test_insert_after_invalid_input"
 ]

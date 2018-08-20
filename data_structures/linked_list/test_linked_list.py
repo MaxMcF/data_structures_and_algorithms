@@ -67,4 +67,38 @@ def test_str_returns_correct_value(small_list):
     assert expected == actual
 
 
+def test_append_return_true(small_list):
+    expected = True
+    actual = small_list.append(5)
+    assert expected == actual
+
+
+def test_insert_before_works(small_list):
+    expected = True
+    acutal = small_list.insert_before(10, 1)
+    assert acutal == expected
+
+
+def test_insert_after_works(small_list):
+    expected = True
+    acutal = small_list.insert_after(10, 4)
+    assert acutal == expected
+
+
+def test_insert_before_invalid_input(small_list):
+    expected = False
+    actual = small_list.insert_before(99999, None)
+    assert actual == expected
+
+
+def test_insert_after_invalid_input(small_list):
+    expected = False
+    actual = small_list.insert_before(99999, None)
+    assert actual == expected
+
+
+
+
+
+
 
