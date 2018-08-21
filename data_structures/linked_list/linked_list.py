@@ -3,10 +3,13 @@ from typing import Any
 
 
 class LinkedList(object):
-    def __init__(self):
+    def __init__(self, initial_data=None):
         try:
             self.head: Node = None
             self._length: int = 0
+            if initial_data is not None:
+                for item in initial_data:
+                    self.insert(item)
         except TypeError:
             return TypeError
 
@@ -65,6 +68,8 @@ class LinkedList(object):
         return True
 
     def insert_after(self, val, target_val) -> bool:
+        '''Creates a new node and appends it after the target value
+        '''
         current = self.head
         while current.val is not target_val:
             current = current.next
@@ -73,6 +78,24 @@ class LinkedList(object):
         current.next = Node(val, current.next)
         return True
 
+    def find_k(self, k) ->bool:
+        '''Takes in an input value of K, which corresponds to that
+        many indexes from the end of the list. This function takes in the input,
+        and returns the value of the item at index of length - k.
+        '''
+        if k < 0:
+            raise IndexError
+        tortoise = self.head
+        hare = self.head
+        for i in range(k):
+            if hare is not None:
+                hare = hare.next
+            else:
+                raise IndexError
+        while hare.next is not None:
+            hare = hare.next
+            tortoise = tortoise.next
+        return tortoise.val
 
 
 
@@ -82,12 +105,12 @@ class LinkedList(object):
 #     ll.insert(2)
 #     ll.insert(3)
 #     ll.insert(4)
-#     small_list_includes(ll)
+#     ll.find_k(2)
 
 
-# def small_list_includes(link_list):
-#     some_bool = link_list.includes(3)
-#     print(some_bool)
+# # # def small_list_includes(link_list):
+# # #     some_bool = link_list.includes(3)
+# # #     print(some_bool)
 
 
 # if __name__ == '__main__':

@@ -97,8 +97,41 @@ def test_insert_after_invalid_input(small_list):
     assert actual == expected
 
 
+def test_find_k_exists(small_list):
+    expected = 1
+    actual = small_list.find_k(0)
+    assert actual == expected
 
 
+def test_find_k_input_full_list_length(small_list):
+    expected = 4
+    actual = small_list.find_k(3)
+    assert actual == expected
 
 
+def test_find_k_input_null(small_list):
+    with pytest.raises(TypeError):
+        small_list.find_k(None)
 
+
+def test_find_k_empty_list_raises_error(empty_list):
+    with pytest.raises(AttributeError):
+        empty_list.find_k(0)
+
+
+def test_find_k_input_negative(small_list):
+    with pytest.raises(IndexError):
+       small_list.find_k(-5)
+
+
+def test_insert_list_item():
+    new_linked_list = LinkedList([1,2,3,4,5,6,7,8])
+    actual = new_linked_list.includes(6)
+    expected = True
+    assert actual == expected
+
+def test_insert_list_item_find_k():
+    new_linked_list = LinkedList([1,2,3,4,5,6,7,8])
+    actual = new_linked_list.find_k(2)
+    expected = 3
+    assert actual == expected
