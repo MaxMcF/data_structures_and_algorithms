@@ -13,5 +13,12 @@
   "data_structures/linked_list/test_linked_list.py::test_insert_before_works",
   "data_structures/linked_list/test_linked_list.py::test_insert_after_works",
   "data_structures/linked_list/test_linked_list.py::test_insert_before_invalid_input",
-  "data_structures/linked_list/test_linked_list.py::test_insert_after_invalid_input"
+  "data_structures/linked_list/test_linked_list.py::test_insert_after_invalid_input",
+  "data_structures/linked_list/test_linked_list.py::test_find_k_exists",
+  "data_structures/linked_list/test_linked_list.py::test_find_k_input_full_list_length",
+  "data_structures/linked_list/test_linked_list.py::test_find_k_input_null",
+  "data_structures/linked_list/test_linked_list.py::test_find_k_empty_list_raises_error",
+  "data_structures/linked_list/test_linked_list.py::test_find_k_input_negative",
+  "data_structures/linked_list/test_linked_list.py::test_insert_list_item",
+  "data_structures/linked_list/test_linked_list.py::test_insert_list_item_find_k"
 ]
