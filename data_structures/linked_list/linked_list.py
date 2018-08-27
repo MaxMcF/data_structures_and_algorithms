@@ -3,13 +3,28 @@ from typing import Any
 
 
 class LinkedList(object):
-    def __init__(self, initial_data=None):
+    def __init__(self, initial_data=None, tuple_data=None):
+        """This initializes the linked list object by creating a node for each value inputed.
+
+            ARGS:
+                Initial data can be either a list, or a single piece of data.
+                Tuple data can also be either a list, or a single piece of data.
+        """
         try:
             self.head: Node = None
             self._length: int = 0
             if initial_data is not None:
-                for item in initial_data:
-                    self.insert(item)
+                try:
+                    for item in initial_data:
+                        self.insert(item)
+                except:
+                    self.insert(initial_data)
+            if tuple_data is not None:
+                try:
+                    for item in tuple_data:
+                        self.insert(item)
+                except:
+                    self.insert(tuple_data)
         except TypeError:
             return TypeError
 
