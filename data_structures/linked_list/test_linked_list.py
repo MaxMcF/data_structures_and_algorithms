@@ -14,7 +14,6 @@ def small_list():
     ll.insert(4)
     return ll
 
-
 def test_linked_list_exists():
     assert LinkedList
 
@@ -135,3 +134,9 @@ def test_insert_list_item_find_k():
     actual = new_linked_list.find_k(2)
     expected = 3
     assert actual == expected
+
+def test_insert_list_is_tuple():
+    assert LinkedList(1,2)
+
+def test_insert_two_lists():
+    assert LinkedList([1,2,3,4,5], [6,7,8,9])
