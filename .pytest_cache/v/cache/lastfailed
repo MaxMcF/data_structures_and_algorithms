@@ -1,1 +1,4 @@
-{}
+{
+  "challenges/fifo_animal_shelter/test_fifo_animal_shelter.py::test_animal_shelter_dequeue": true,
+  "data_structures/bst/test_bst.py::test_duplicate_val_case": true
+}
