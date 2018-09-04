@@ -16,6 +16,7 @@ git clone https://github.com/MaxMcF/data_structures_and_algorithms.git
     - [Array Binary Search](./challenges/array_binary_search/README.md)
     - [Linked List Insertion](./data_structures/linked_list/README.md)
     - [Linked List Merge](./challenges/ll_merge/README.md)
+    - [Queues with Stacks](./challenges/queue_with_stacks/README.md)
     - [Animal Shelter](./challenges/fifo_animal_shelter/README.md)
     - [Multi Bracket Validation](./challenges/multi_bracket_validation/README.md)
     - [Binary Search Tree](./data_structures/bst/README.md)
