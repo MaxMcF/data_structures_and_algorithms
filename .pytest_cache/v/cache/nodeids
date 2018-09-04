@@ -1,12 +1,4 @@
 [
-  "data_structures/bst/test_bst.py::test_class_exists",
-  "data_structures/bst/test_bst.py::test_binary_tree_initializes",
-  "data_structures/bst/test_bst.py::test_binary_tree_insert",
-  "data_structures/bst/test_bst.py::test_in_order",
-  "data_structures/bst/test_bst.py::test_pre_order",
-  "data_structures/bst/test_bst.py::test_post_order",
-  "data_structures/bst/test_bst.py::test_duplicate_val_case",
-  "data_structures/bst/test_bst.py::test_none_value_error",
-  "data_structures/bst/test_bst.py::test_negative_vals",
-  "data_structures/bst/test_bst.py::test_type_error_on_string_input"
+  "challenges/queue_with_stacks/test_queue_with_stacks.py::test_queue_exists",
+  "challenges/queue_with_stacks/test_queue_with_stacks.py::test_enqueue_method"
 ]

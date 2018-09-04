@@ -24,12 +24,13 @@ class Stack:
     def push(self, value):
         self.top = Node(value, self.top)
         self.length += 1
-        return self.top.val
+        return self.top
 
     def pop(self):
         temp = self.top
         self.top = self.top.next
-        return temp.val
+        self.length -= 1
+        return temp
 
     def peek(self):
         return self.top
@@ -42,15 +43,33 @@ class Queue:
 
     def enqueue(self, value):
         stack_one = Stack()
-        stack_two = Stack()
         stack_one.push(value)
         current = self.back
         while current is not None:
             stack_one.push(current)
             current = current.next
+        self.front = stack_one.pop()
+        self.back = self.front
         while stack_one.top is not None:
             item = stack_one.pop()
-            stack_two.push(item)
+            self.back = Node(item.val, self.back)
+
+    def dequeue(self):
+        stack_one = Stack()
+        current = self.back
+        while current is not None:
+            stack_one.push(current)
+            current = current.next
+        dequeued = stack_one.pop()
+        self.front = stack_one.pop()
+        self.back = self.front
+        while stack_one.top is not None:
+            item = stack_one.pop()
+            self.back = Node(item.val, self.back)
+        return dequeued.val
+
+
+
 
 
 
