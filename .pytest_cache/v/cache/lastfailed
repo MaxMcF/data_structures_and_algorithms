@@ -1,5 +1,8 @@
 {
+  "breadth-first-traversal/test_bst.py::test_breadth_first": true,
+  "breadth-first-traversal/test_bst.py::test_duplicate_val_case": true,
   "challenges/fifo_animal_shelter/test_fifo_animal_shelter.py::test_animal_shelter_dequeue": true,
   "challenges/queue_with_stacks/test_queue_with_stacks.py::test_enqueue_method": true,
-  "data_structures/bst/test_bst.py::test_duplicate_val_case": true
+  "data_structures/bst/test_bst.py::test_duplicate_val_case": true,
+  "find_maximum_value_binary_tree/test_bst.py::test_duplicate_val_case": true
 }

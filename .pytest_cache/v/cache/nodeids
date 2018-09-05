@@ -1,4 +1,17 @@
 [
-  "challenges/queue_with_stacks/test_queue_with_stacks.py::test_queue_exists",
-  "challenges/queue_with_stacks/test_queue_with_stacks.py::test_enqueue_method"
+  "find_maximum_value_binary_tree/test_bst.py::test_class_exists",
+  "find_maximum_value_binary_tree/test_bst.py::test_binary_tree_initializes",
+  "find_maximum_value_binary_tree/test_bst.py::test_binary_tree_insert",
+  "find_maximum_value_binary_tree/test_bst.py::test_in_order",
+  "find_maximum_value_binary_tree/test_bst.py::test_pre_order",
+  "find_maximum_value_binary_tree/test_bst.py::test_post_order",
+  "find_maximum_value_binary_tree/test_bst.py::test_duplicate_val_case",
+  "find_maximum_value_binary_tree/test_bst.py::test_none_value_error",
+  "find_maximum_value_binary_tree/test_bst.py::test_negative_vals",
+  "find_maximum_value_binary_tree/test_bst.py::test_type_error_on_string_input",
+  "find_maximum_value_binary_tree/test_bst.py::test_max_function_exists",
+  "find_maximum_value_binary_tree/test_bst.py::test_max_function_works_small_tree",
+  "find_maximum_value_binary_tree/test_bst.py::test_max_function_works_large_tree",
+  "find_maximum_value_binary_tree/test_bst.py::test_max_function_gives_error_null_input",
+  "find_maximum_value_binary_tree/test_bst.py::test_max_function_gives_one_val_on_duplicates"
 ]
