@@ -20,3 +20,4 @@ git clone https://github.com/MaxMcF/data_structures_and_algorithms.git
     - [Animal Shelter](./challenges/fifo_animal_shelter/README.md)
     - [Multi Bracket Validation](./challenges/multi_bracket_validation/README.md)
     - [Binary Search Tree](./data_structures/bst/README.md)
+    - [Find Maximum Value](./find_maximum_value_binary_tree/README.md)

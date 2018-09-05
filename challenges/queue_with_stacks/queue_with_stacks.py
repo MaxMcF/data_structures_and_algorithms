@@ -42,6 +42,9 @@ class Queue:
         self.length = 0
 
     def enqueue(self, value):
+        """This method takes in a value and puts the value at the back of a queue.
+        Instead of doing this manually, this challenge required the use of stacks.
+        """
         stack_one = Stack()
         stack_one.push(value)
         current = self.back
@@ -55,6 +58,9 @@ class Queue:
             self.back = Node(item.val, self.back)
 
     def dequeue(self):
+        """This method queues the back of a given queue.
+        Instead of doing this manually, this challenge required the use of stacks.
+        """
         stack_one = Stack()
         current = self.back
         while current is not None:
