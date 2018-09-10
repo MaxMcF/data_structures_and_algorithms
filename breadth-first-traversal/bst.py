@@ -183,7 +183,7 @@ class BinaryTree:
         _walk(queue.front)
 
 
-# bt = BinaryTree([10,4,39])
-# bt.breadth_first()
+bt = BinaryTree([10,4,39])
+bt.breadth_first()
 
 
