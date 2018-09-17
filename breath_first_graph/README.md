@@ -1,8 +1,8 @@
-# Binary Tree Search.
-This class creates a binary search tree that can be traversed using the class methods of in_order, pre_order, and post_order. All of these methods utilize the various conventional ways of traversing a binary tree
+# Breadth First Graph Traversal.
+This class method traverses a premade graph given an initial input node. This method does not fully traverse a graph with a disconnected graph. The BigO is n for both space and time.
 
 ## Challenge
-Create a class method that allows the user to input a value into a binary tree, using bigO(log(n)) in terms of time.
+Create a method that uses breadth first traversal on a graph given an input node that exists on the graph.
 
 ## Solution
-![Whiteboarding](../../assets/14_bst_lab.jpg)
+![Whiteboarding](../../assets/26_breadth_first_graph.jpg)
