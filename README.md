@@ -23,3 +23,4 @@ git clone https://github.com/MaxMcF/data_structures_and_algorithms.git
     - [Breadth First Traversal](./breadth_first_traversal/README.md)
     - [Find Maximum Value](./find_maximum_value_binary_tree/README.md)
     - [Breadth First Graph](./breath_first_graph/README.md)
+    - [Graph Get Edges](./challenges/get_edges/README.md)
