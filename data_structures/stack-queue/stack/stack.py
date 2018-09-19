@@ -1,16 +1,4 @@
-class Node:
-    def __init__(self, value, _next=None):
-        self.value = value
-        self.next = _next
-
-    def __repr__(self):
-        return ('< Node value: {} | Node next reference: {} >').format(self.value, self.next)
-        pass
-
-    def __str__(self):
-        return ('Node: {}, Next node: {}').format(self.value, self.next)
-        pass
-
+from node import Node
 
 class Stack:
     def __init__(self):
