@@ -110,6 +110,7 @@ def test_depth_first(graph_filled_for_traversal):
     assert actual == expected
 
 def test_depth_first_small_graph(graph_filled):
+    import pdb; pdb.set_trace()
     actual = graph_filled.depth_first('A')
     expected = ['A', 'B', 'D', 'C']
     assert actual == expected
@@ -120,6 +121,7 @@ def test_depth_first_error_handling(graph_empty):
 
 def test_depth_first_handles_single_vert_graph(graph_empty):
     graph_empty.add_node('E')
+
     actual = graph_empty.depth_first('E')
     expected = ['E']
     assert actual == expected
