@@ -27,3 +27,4 @@ git clone https://github.com/MaxMcF/data_structures_and_algorithms.git
     - [Breadth First Graph](./breath_first_graph/README.md)
     - [Graph Get Edges](./challenges/get_edges/README.md)
     - [Graph Depth First](./depth_first/README.md)
+    - [Repeated Word](./challenges/repeated_word/README.md)
