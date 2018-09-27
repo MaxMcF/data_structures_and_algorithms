@@ -5,5 +5,6 @@
   "challenges/get-edges/test_graph.py": true,
   "challenges/queue_with_stacks/test_queue_with_stacks.py::test_enqueue_method": true,
   "data_structures/bst/test_bst.py::test_duplicate_val_case": true,
-  "find_maximum_value_binary_tree/test_bst.py::test_duplicate_val_case": true
+  "find_maximum_value_binary_tree/test_bst.py::test_duplicate_val_case": true,
+  "left_join/test_left_join.py::test_left_join_small_lists": true
 }
