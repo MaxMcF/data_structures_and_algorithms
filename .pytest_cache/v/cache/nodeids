@@ -1,11 +1,19 @@
 [
-  "data_structures/hash_table/test_hash_table.py::test_hash_table_exists",
-  "data_structures/hash_table/test_hash_table.py::test_hash_table_get",
-  "data_structures/hash_table/test_hash_table.py::test_hash_table_remove",
-  "data_structures/hash_table/test_hash_table.py::test_hash_table_larger_table_get",
-  "data_structures/hash_table/test_hash_table.py::test_hash_table_larger_delete",
-  "data_structures/hash_table/test_hash_table.py::test_hash_table_raises_error_null_key",
-  "data_structures/hash_table/test_hash_table.py::test_hash_table_raises_no_error_null_value",
-  "data_structures/hash_table/test_hash_table.py::test_hash_table_raises_error_on_null_value_remove",
-  "data_structures/hash_table/test_hash_table.py::test_hash_table_raise_on_collision"
+  "challenges/left_join/test_left_join.py::test_left_join",
+  "challenges/left_join/test_left_join.py::test_left_join_small_lists",
+  "challenges/left_join/test_left_join.py::test_left_join_big_lists_one",
+  "challenges/left_join/test_left_join.py::test_left_join_big_lists_two",
+  "challenges/left_join/test_left_join.py::test_left_join_big_lists_three",
+  "challenges/left_join/test_left_join.py::test_left_join_big_lists_four",
+  "challenges/left_join/test_left_join.py::test_left_join_big_lists_five",
+  "challenges/left_join/test_left_join.py::test_left_join_big_lists_six",
+  "challenges/left_join/test_left_join.py::test_left_join_big_lists_seven",
+  "challenges/left_join/test_left_join.py::test_left_join_big_lists_eight",
+  "challenges/left_join/test_left_join.py::test_left_join_big_lists_nine",
+  "challenges/left_join/test_left_join.py::test_left_join_big_lists_ten",
+  "challenges/left_join/test_left_join.py::test_left_join_big_lists_eleven",
+  "challenges/left_join/test_left_join.py::test_left_join_big_lists_twelve",
+  "challenges/left_join/test_left_join.py::test_left_join_big_lists_reversed_one",
+  "challenges/left_join/test_left_join.py::test_left_join_big_lists_reversed_two",
+  "challenges/left_join/test_left_join.py::test_left_join_big_lists_reversed_three"
 ]
