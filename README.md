@@ -15,6 +15,7 @@ git clone https://github.com/MaxMcF/data_structures_and_algorithms.git
     - [Graph](./data_structures/graph/README.md)
     - [Stack](./data_structures/stack-queue/README.md)
     - [Queue](./data_structures/stack-queue/README.md)
+    - [Hash Table](./data_structures/hash_table/README.md)
 2. Algorithms
     - [Array Shift](./challenges/array_shift/README.md)
     - [Array Binary Search](./challenges/array_binary_search/README.md)
