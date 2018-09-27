@@ -4,6 +4,7 @@ def repeated_word(string):
     """This function will detect the first repeated word in a string.
     Currently, there is no handling for punctuation, meaning that if the word
     is capitalized, or at the end of a senctence, it will be stored as a different word.
+    If the string contains no repeats, it return 'No Duplicate'
 
     ARGS:
         A string of words
@@ -24,5 +25,7 @@ def repeated_word(string):
             string = word[1]
         except:
             return 'No Duplicate'
+
+
 
 
