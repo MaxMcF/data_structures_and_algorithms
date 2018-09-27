@@ -1,6 +1,15 @@
 from hash_table import HashTable
 
 def repeated_word(string):
+    """This function will detect the first repeated word in a string.
+    Currently, there is no handling for punctuation, meaning that if the word
+    is capitalized, or at the end of a senctence, it will be stored as a different word.
+
+    ARGS:
+        A string of words
+    RETURN:
+        The first duplicated word in the input string.
+    """
     ht = HashTable()
     dup_bool = True
     while dup_bool:
