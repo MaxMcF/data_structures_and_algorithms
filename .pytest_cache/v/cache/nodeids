@@ -1,19 +1,6 @@
 [
-  "challenges/left_join/test_left_join.py::test_left_join",
-  "challenges/left_join/test_left_join.py::test_left_join_small_lists",
-  "challenges/left_join/test_left_join.py::test_left_join_big_lists_one",
-  "challenges/left_join/test_left_join.py::test_left_join_big_lists_two",
-  "challenges/left_join/test_left_join.py::test_left_join_big_lists_three",
-  "challenges/left_join/test_left_join.py::test_left_join_big_lists_four",
-  "challenges/left_join/test_left_join.py::test_left_join_big_lists_five",
-  "challenges/left_join/test_left_join.py::test_left_join_big_lists_six",
-  "challenges/left_join/test_left_join.py::test_left_join_big_lists_seven",
-  "challenges/left_join/test_left_join.py::test_left_join_big_lists_eight",
-  "challenges/left_join/test_left_join.py::test_left_join_big_lists_nine",
-  "challenges/left_join/test_left_join.py::test_left_join_big_lists_ten",
-  "challenges/left_join/test_left_join.py::test_left_join_big_lists_eleven",
-  "challenges/left_join/test_left_join.py::test_left_join_big_lists_twelve",
-  "challenges/left_join/test_left_join.py::test_left_join_big_lists_reversed_one",
-  "challenges/left_join/test_left_join.py::test_left_join_big_lists_reversed_two",
-  "challenges/left_join/test_left_join.py::test_left_join_big_lists_reversed_three"
+  "sorting_algos/merge_sort/test_merge_sort.py::test_selection_sort",
+  "sorting_algos/merge_sort/test_merge_sort.py::test_large_list",
+  "sorting_algos/merge_sort/test_merge_sort.py::test_really_big_list",
+  "sorting_algos/merge_sort/test_merge_sort.py::test_repeated_num_list"
 ]
