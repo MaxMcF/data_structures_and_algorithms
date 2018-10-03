@@ -1,6 +1,6 @@
 [
-  "sorting_algos/quick_sort/test_quick_sort.py::test_selection_sort",
-  "sorting_algos/quick_sort/test_quick_sort.py::test_large_list",
-  "sorting_algos/quick_sort/test_quick_sort.py::test_really_big_list",
-  "sorting_algos/quick_sort/test_quick_sort.py::test_repeated_num_list"
+  "sorting_algos/radix_sort/test_radix_sort.py::test_selection_sort",
+  "sorting_algos/radix_sort/test_radix_sort.py::test_large_list",
+  "sorting_algos/radix_sort/test_radix_sort.py::test_really_big_list",
+  "sorting_algos/radix_sort/test_radix_sort.py::test_repeated_num_list"
 ]

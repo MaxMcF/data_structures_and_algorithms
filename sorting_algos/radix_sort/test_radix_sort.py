@@ -1,4 +1,4 @@
-from quick_sort import quick_sort
+from radix_sort import radix_sort
 import random
 import pytest
 
@@ -18,18 +18,18 @@ def really_big_list():
     return big_list
 
 def test_selection_sort():
-    assert quick_sort
+    assert radix_sort
 
 def test_large_list(large_list):
-    actual = quick_sort(large_list)
+    actual = radix_sort(large_list)
     assert all(actual[i] <= actual[i+1] for i in range(len(actual)-1))
 
 def test_really_big_list(really_big_list):
-    actual = quick_sort(really_big_list)
+    actual = radix_sort(really_big_list)
     assert all(actual[i] <= actual[i+1] for i in range(len(actual)-1))
 
 def test_repeated_num_list():
-    actual = quick_sort([7,7,7,7,7,7,7,7,7,7,4,7])
+    actual = radix_sort([7,7,7,7,7,7,7,7,7,7,4,7])
     assert all(actual[i] <= actual[i+1] for i in range(len(actual)-1))
 
 
