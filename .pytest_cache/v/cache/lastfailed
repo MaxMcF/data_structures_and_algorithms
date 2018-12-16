@@ -1,6 +1,8 @@
 {
   "breadth-first-traversal/test_bst.py::test_breadth_first": true,
   "breadth-first-traversal/test_bst.py::test_duplicate_val_case": true,
+  "challenges/a_star_algorithm/test_a_star.py::test_no_solution_graph": true,
+  "challenges/a_star_algorithm/test_a_star.py::test_single_edge_shortest": true,
   "challenges/fifo_animal_shelter/test_fifo_animal_shelter.py::test_animal_shelter_dequeue": true,
   "challenges/get-edges/test_graph.py": true,
   "challenges/queue_with_stacks/test_queue_with_stacks.py::test_enqueue_method": true,

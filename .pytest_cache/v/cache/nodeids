@@ -1,6 +1,7 @@
 [
-  "sorting_algos/radix_sort/test_radix_sort.py::test_selection_sort",
-  "sorting_algos/radix_sort/test_radix_sort.py::test_large_list",
-  "sorting_algos/radix_sort/test_radix_sort.py::test_really_big_list",
-  "sorting_algos/radix_sort/test_radix_sort.py::test_repeated_num_list"
+  "challenges/a_star_algorithm/test_a_star.py::test_simple_traversal",
+  "challenges/a_star_algorithm/test_a_star.py::test_simple_traversal_with_heuristics",
+  "challenges/a_star_algorithm/test_a_star.py::test_complex_traversal",
+  "challenges/a_star_algorithm/test_a_star.py::test_complex_traversal_diff_start_and_end",
+  "challenges/a_star_algorithm/test_a_star.py::test_empty_graph_returns_error"
 ]
