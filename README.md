@@ -35,5 +35,4 @@ git clone https://github.com/MaxMcF/data_structures_and_algorithms.git
     - [Insertion Sort](./sorting_algos/insertion_sort/README.md)
     - [Selection Sort](./sorting_algos/selection_sort/README.md)
     - [Merge Sort](./sorting_algos/merge_sort/README.md)
-    - [Quick Sort](./sorting_algos/quick_sort/README.md)
     - [Radix Sort](./sorting_algos/radix_sort/README.md)
