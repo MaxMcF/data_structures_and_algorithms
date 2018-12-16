@@ -37,6 +37,13 @@ def dijkstra_alg(graph, start, end):
     priority_queue.sort(key=sort_weight)
 
 
+    """Step 2: - Check all neighboring nodes of the starting node
+    - Check the weights of the neighboring nodes. If they are less, reassign the values in the priority queue
+    - Re-order the queue, with the lowest weight at the beginning.
+    - Run this functionality recursively, until all nodes in the priority queue have been traversed.
+    """
+
+
     def _traverse(node):
 
         if len(priority_queue) < 2:
@@ -66,6 +73,8 @@ def dijkstra_alg(graph, start, end):
     _traverse(priority_queue[0])
 
 
+    """Step 3: Go through the completed node queue, tracing back the shortest path.
+    """
     def _reverse_find(node):
         if node.prev is None:
             path.append(node)
