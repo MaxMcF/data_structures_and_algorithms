@@ -31,6 +31,8 @@ git clone https://github.com/MaxMcF/data_structures_and_algorithms.git
     - [Repeated Word](./challenges/repeated_word/README.md)
     - [Tree Intersection](./challenges/tree_intersection/README.md)
     - [Left Join](./challenges/left_join/README.md)
+    - [A* Algorithm](./challenges/a_star_algorithm/README.md)
+    - [Dijkstras Algorithm](./challenges/dijkstras_algorithm/README.md)
 3. Sorting Algorithms
     - [Insertion Sort](./sorting_algos/insertion_sort/README.md)
     - [Selection Sort](./sorting_algos/selection_sort/README.md)
